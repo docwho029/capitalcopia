@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Members | CapitalCopia</title>
+
+    <script src="../script/members.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./members.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <style>
+        :root {
+            --swiper-theme-color: #CBD8D7;
+        }
+
+        .swiper-pagination-bullet {
+            width: 15px;
+            height: 15px;
+        }
+
+        .swiper-pagination {
+            width: 30vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="desktop-tablet-view">
+        <div class="content">
+            <div class="nav">
+                <div class="logo">
+                    <div class="logo-name">CapitalCopia</div>
+                    <div class="logo-tagline">Ideate. Innovate. Educate.</div>
+                </div>
+                <div class="tabs">
+                    <div class="tabs-home"><a href="./home.html">home</a></div>
+                    <div class="tabs-members"><a href="./members.html">members</a></div>
+                    <div class="tabs-gallery"><a href="./gallery.html">gallery</a></div>
+                </div>
+                <div class="contact-us">
+                    <a href="">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="main-heading">
+                    Our Team
+                </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide main-slide">
+                            <div class="main-slide-image">
+                                <img src="https://avatars.githubusercontent.com/u/86051609?v=4" alt="">
+                            </div>
+                            <div class="main-slide-details">
+                                <div class="main-slide-name">Name Surname</div>
+                                <div class="main-slide-post">Founder</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main-slide">
+                            <div class="main-slide-image">
+                                <img src="https://avatars.githubusercontent.com/u/73134887?v=4" alt="">
+                            </div>
+                            <div class="main-slide-details">
+                                <div class="main-slide-name">Name Surname</div>
+                                <div class="main-slide-post">Founder</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main-slide">
+                            <div class="main-slide-image">
+                                <img src="https://avatars.githubusercontent.com/u/74779011?v=4" alt="">
+                            </div>
+                            <div class="main-slide-details">
+                                <div class="main-slide-name">Name Surname</div>
+                                <div class="main-slide-post">Founder</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main-slide">
+                            <div class="main-slide-image">
+                                <img src="https://avatars.githubusercontent.com/u/75317312?v=4" alt="">
+                            </div>
+                            <div class="main-slide-details">
+                                <div class="main-slide-name">Name Surname</div>
+                                <div class="main-slide-post">Founder</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-view">
+        <div class="mobile-content flex">
+            <div class="mobile-nav flex">
+                <div class="mobile-logo">
+                    <div class="mobile-logo-name">CapitalCopia</div>
+                    <div class="mobile-logo-tagline">Ideate. Innovate. Educate.</div>
+                </div>
+                <div class="mobile-nav-hamburger">
+                    <div class="hamburgers flex">
+                        <div class="hamburger-top"></div>
+                        <div class="hamburger-middle"></div>
+                        <div class="hamburger-bottom"></div>
+                    </div>
+                    <div class="mobile-nav-tabs passive">
+                        <div class="mobile-nav-cancel flex"><img src="../resources/xmark.svg" alt=""></div>
+                        <div class="mobile-nav-link-container">
+                            <a class="mobile-nav-tab mobile-tabs-home flex" href="./home.html">home</a>
+                            <a class="mobile-nav-tab mobile-tabs-members flex" href="./members.html">members</a>
+                            <a class="mobile-nav-tab mobile-tabs-contactUs flex" href="./gallery.html">contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-body">
+                <div class="mobile-wrapper">
+                    <div class="mobile-heading">Our Team</div>
+                    <div id="swiper2" class="swiper yourSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide mobile-main-slide">
+                                <div class="mobile-main-slide-image">
+                                    <img src="https://avatars.githubusercontent.com/u/86051609?v=4" alt="">
+                                </div>
+                                <div class="mobile-main-slide-details">
+                                    <div class="mobile-main-slide-name">Name Surname</div>
+                                    <div class="mobile-main-slide-post">Founder</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide mobile-main-slide">
+                                <div class="mobile-main-slide-image">
+                                    <img src="https://avatars.githubusercontent.com/u/73134887?v=4" alt="">
+                                </div>
+                                <div class="mobile-main-slide-details">
+                                    <div class="mobile-main-slide-name">Name Surname</div>
+                                    <div class="mobile-main-slide-post">Founder</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide mobile-main-slide">
+                                <div class="mobile-main-slide-image">
+                                    <img src="https://avatars.githubusercontent.com/u/74779011?v=4" alt="">
+                                </div>
+                                <div class="mobile-main-slide-details">
+                                    <div class="mobile-main-slide-name">Name Surname</div>
+                                    <div class="mobile-main-slide-post">Founder</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide mobile-main-slide">
+                                <div class="mobile-main-slide-image">
+                                    <img src="https://avatars.githubusercontent.com/u/75317312?v=4" alt="">
+                                </div>
+                                <div class="mobile-main-slide-details">
+                                    <div class="mobile-main-slide-name">Name Surname</div>
+                                    <div class="mobile-main-slide-post">Founder</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide mobile-main-slide">
+                                <div class="mobile-main-slide-image">
+                                    <img src="https://avatars.githubusercontent.com/u/74779011?v=4" alt="">
+                                </div>
+                                <div class="mobile-main-slide-details">
+                                    <div class="mobile-main-slide-name">Name Surname</div>
+                                    <div class="mobile-main-slide-post">Founder</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide mobile-main-slide">
+                                <div class="mobile-main-slide-image">
+                                    <img src="https://avatars.githubusercontent.com/u/74779011?v=4" alt="">
+                                </div>
+                                <div class="mobile-main-slide-details">
+                                    <div class="mobile-main-slide-name">Name Surname</div>
+                                    <div class="mobile-main-slide-post">Founder</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        var swiper2 = new Swiper(".yourSwiper", {
+            direction: "vertical",
+            slidesPerView: 3,
+            spaceBetween: 30,
+        });
+    </script>
+</body>
+
+</html>
